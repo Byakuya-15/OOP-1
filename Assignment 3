@@ -23,7 +23,7 @@ int main()
     Employee E1;
     cout<<"Enter Password";
     cin>>E1.a;
-    if (E1.a == E1.autho)
+    if (E1.a == E1.author)
     {
         cout<<"--------Employee Details--------"<<endl;
         cout<<"Enter Name="<<endl;
