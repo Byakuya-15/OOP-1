@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+// Generic function template
+template <typename T>
+T findLarger(T a, T b)
+{
+    if (a > b)
+        return a;
+    else
+        return b;
+}
+
+int main()
+{
+    // Comparing student marks
+    cout << "Greater marks: " << findLarger(85, 92) << endl;
+
+    // Comparing product prices
+    cout << "Higher price: " << findLarger(150.50, 200.75) << endl;
+
+    // Comparing sensor readings
+    cout << "Higher sensor reading: " << findLarger(25.6f, 30.8f) << endl;
+
+    return 0;
+}
